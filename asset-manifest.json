@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AdityaNG/static/css/main.0b79c492.css",
-    "main.js": "/AdityaNG/static/js/main.8e040ab1.js",
-    "static/js/592.4e40c585.chunk.js": "/AdityaNG/static/js/592.4e40c585.chunk.js",
-    "static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.gif": "/AdityaNG/static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.99deab50d03dfb3561d2.gif",
-    "static/media/demo_fsds.gif": "/AdityaNG/static/media/demo_fsds.acb142d44311949b941b.gif",
-    "static/media/ICRA_Thermal_Voyager.pdf": "/AdityaNG/static/media/ICRA_Thermal_Voyager.913c785f5af5d8d22631.pdf",
-    "static/media/plot_dataset_3D.png": "/AdityaNG/static/media/plot_dataset_3D.4366165a02d156f128e9.png",
-    "static/media/paper_TrajNet.png": "/AdityaNG/static/media/paper_TrajNet.00f1e83cc1b0fb936d8c.png",
-    "static/media/paper_OCTraN.png": "/AdityaNG/static/media/paper_OCTraN.c10316ece821d0c051ad.png",
-    "static/media/OCTraN_merged_grid_2_rev.png": "/AdityaNG/static/media/OCTraN_merged_grid_2_rev.4d7fb9b00a6a83c93e77.png",
-    "static/media/rc_car.png": "/AdityaNG/static/media/rc_car.6c5e01607f1d37a1728e.png",
-    "static/media/paper_stereo.png": "/AdityaNG/static/media/paper_stereo.29ee913d7265880deac0.png",
-    "static/media/arch.png": "/AdityaNG/static/media/arch.f34f7b37a673ce0137e3.png",
-    "index.html": "/AdityaNG/index.html",
-    "main.0b79c492.css.map": "/AdityaNG/static/css/main.0b79c492.css.map",
-    "main.8e040ab1.js.map": "/AdityaNG/static/js/main.8e040ab1.js.map",
-    "592.4e40c585.chunk.js.map": "/AdityaNG/static/js/592.4e40c585.chunk.js.map"
+    "main.css": "/static/css/main.0b79c492.css",
+    "main.js": "/static/js/main.075cc688.js",
+    "static/js/592.4e40c585.chunk.js": "/static/js/592.4e40c585.chunk.js",
+    "static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.gif": "/static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.99deab50d03dfb3561d2.gif",
+    "static/media/demo_fsds.gif": "/static/media/demo_fsds.acb142d44311949b941b.gif",
+    "static/media/ICRA_Thermal_Voyager.pdf": "/static/media/ICRA_Thermal_Voyager.913c785f5af5d8d22631.pdf",
+    "static/media/plot_dataset_3D.png": "/static/media/plot_dataset_3D.4366165a02d156f128e9.png",
+    "static/media/paper_TrajNet.png": "/static/media/paper_TrajNet.00f1e83cc1b0fb936d8c.png",
+    "static/media/paper_OCTraN.png": "/static/media/paper_OCTraN.c10316ece821d0c051ad.png",
+    "static/media/OCTraN_merged_grid_2_rev.png": "/static/media/OCTraN_merged_grid_2_rev.4d7fb9b00a6a83c93e77.png",
+    "static/media/rc_car.png": "/static/media/rc_car.6c5e01607f1d37a1728e.png",
+    "static/media/paper_stereo.png": "/static/media/paper_stereo.29ee913d7265880deac0.png",
+    "static/media/arch.png": "/static/media/arch.f34f7b37a673ce0137e3.png",
+    "index.html": "/index.html",
+    "main.0b79c492.css.map": "/static/css/main.0b79c492.css.map",
+    "main.075cc688.js.map": "/static/js/main.075cc688.js.map",
+    "592.4e40c585.chunk.js.map": "/static/js/592.4e40c585.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b79c492.css",
-    "static/js/main.8e040ab1.js"
+    "static/js/main.075cc688.js"
   ]
 }
