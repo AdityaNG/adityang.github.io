@@ -1,0 +1,50 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container to center the content */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header,
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive grid for papers */
+  .paper-grid {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; */
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+
+  .paper-block .citation .bibtext {
+    white-space: pre-wrap; /* Allows text to wrap to the next line */
+    word-break: break-word; /* Breaks the word at the end of the line */
+    overflow-wrap: break-word; /* Ensures words break to prevent overflow */
+    max-width: 100%; /* Sets the maximum width to prevent overflow */
+  }

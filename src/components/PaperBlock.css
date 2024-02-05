@@ -1,0 +1,68 @@
+.paper-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row; /* default to left-right layout */
+  }
+
+  .content a {
+    display: flex;
+    width: 100%;
+    justify-content: 'center';
+  }
+
+  .content img {
+    max-height: 60vh;
+    justify-content: 'center';
+  }
+  
+  /* When the screen width is 600px or less, switch to top-bottom layout */
+  @media screen and (max-width: 600px) {
+    .content {
+      flex-direction: column;
+      justify-content: 'center';
+    }
+    .content img {
+        max-height: 30vh;
+        justify-content: 'center';
+    }
+  }
+  
+  .left {
+    /* flex: 1; */
+    /* display: flex; */
+    justify-content: center;
+    /* Add styling for the image and links here */
+  }
+  
+  .right {
+    flex: 1;
+    /* Add styling for the citation and bibtex here */
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .citation {
+    /* Add styling for the citation section here */
+  }
+  
+  .bibtext {
+    
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  /* Add media queries if needed for responsiveness */
