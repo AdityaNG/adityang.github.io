@@ -5,6 +5,7 @@ import TrajNet from './TrajNet';
 import OCTraN from './OCTraN';
 import BengaluruDrivingDataset from './BengaluruDrivingDataset';
 import HardwareAcceleratedStereoVision from './HardwareAcceleratedStereoVision';
+import SOccDPT from './SOccDPT';
 import Landing from './Landing';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/OCTraN" element={<OCTraN />} />
         <Route path="/BengaluruDrivingDataset" element={<BengaluruDrivingDataset />} />
         <Route path="/HardwareAcceleratedStereoVision" element={<HardwareAcceleratedStereoVision />} />
+        <Route path="/SOccDPT" element={<SOccDPT />} />
       </Routes>
     </Router>
   );

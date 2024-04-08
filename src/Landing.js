@@ -14,7 +14,7 @@ function Landing() {
       title: "TrajNet",
       image: require("./media/paper_TrajNet.png"),
       conference: "ICRA 2024",
-      bibtext_plain: "Aditya N Ganesh, Dhruval Pobbathi Badrinath, Harshith Mohan Kumar, Priya S, and Surabhi Narayan. Octran: 3d occupancy convolutional transformer network in unstructured traffic scenarios. Spotlight Presentation at the Transformers for Vision Workshop, CVPR, 2023. Transformers for Vision Workshop, CVPR 2023",
+      bibtext_plain: "Aditya N G, Dhruval P B, Jehan Shalabi, Shubhankar Jape, Xueji Wang, and Zubin Jacob. Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation, ICRA 2024",
       bibtext: "@inproceedings{ganesh2024thermal,\
   title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
   author={Ganesh, Aditya Nalgunda and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
@@ -24,9 +24,29 @@ function Landing() {
     tldr: "Thermal Perception for End-to-End Autonomous Navigation",
     links: [
       { key: "Paper", value: require("./media/ICRA_Thermal_Voyager.pdf") },
-      { key: "Project", value: "/TrajNet/" }
+      { key: "Project", value: "/TrajNet" }
     ],
-    project_page: "/TrajNet/",
+    project_page: "/TrajNet",
+    },
+    {
+      title: "SOccDPT",
+      image: require("./media/demo.gif"),
+      conference: "Arxiv 2023",
+      bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. Arxiv, 2023.",
+      bibtext: "@misc{ganesh2023soccdpt,\
+  title={SOccDPT: Semi-Supervised 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints}, \
+  author={Aditya Nalgunda Ganesh},\
+  year={2023},\
+  eprint={2311.11371},\
+  archivePrefix={arXiv},\
+  primaryClass={cs.CV}\
+}",
+    tldr: "Real time 3D Semantic Occupancy from Dense Prediction Transformers",
+    links: [
+      { key: "Paper", value: "https://arxiv.org/abs/2311.11371"},
+      { key: "Project", value: "/SOccDPT" }
+    ],
+    project_page: "/SOccDPT",
     },
     {
       title: "OCTraN",
@@ -45,9 +65,9 @@ function Landing() {
 }",
       links: [
         { key: "Paper", value: "https://arxiv.org/abs/2307.10934" },
-        { key: "Project", value: "/OCTraN/" }
+        { key: "Project", value: "/OCTraN" }
       ],
-      project_page: "/OCTraN/",
+      project_page: "/OCTraN",
       tldr: "3D Occupancy Prediction from Monocular Video",
     },
     {
@@ -67,9 +87,9 @@ function Landing() {
 }",
       links: [
         { key: "Paper", value: "https://arxiv.org/abs/2307.10934" },
-        { key: "Project", value: "/BengaluruDrivingDataset/" }
+        { key: "Project", value: "/BengaluruDrivingDataset" }
       ],
-      project_page: "/BengaluruDrivingDataset/",
+      project_page: "/BengaluruDrivingDataset",
       tldr: "Depth dataset for Autonomous Driving produced entirely from autolabelling",
     },
 
@@ -98,9 +118,9 @@ function Landing() {
 }',
       links: [
         { key: "Paper", value: "https://link.springer.com/epdf/10.1007/978-981-19-7867-8_22?sharing_token=tGt_1kJ1-X4X_SJ7asFIhPe4RwlQNchNByi7wbcMAY7dVU38RCYC635tD8Mv0pHKLGrLXtqJR415-cGO0rTpc-m7_S8tonEWu9j7gV822VqazEY_wDsgtBGj7oTIDJbEpDvS34K3Uc75Lm_PGnmytAIfS3kvjD_LIosG273wL8E%3D" },
-        { key: "Project", value: "/HardwareAcceleratedStereoVision/" }
+        { key: "Project", value: "/HardwareAcceleratedStereoVision" }
       ],
-      project_page: "/HardwareAcceleratedStereoVision/",
+      project_page: "/HardwareAcceleratedStereoVision",
       tldr: "Stereo Block Matching with CUDA and OpenMP at 30 FPS",
     },
   ];

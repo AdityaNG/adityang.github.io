@@ -55,9 +55,9 @@ function OCTraN() {
 }",
       links: [
         { key: "Paper", value: "https://arxiv.org/abs/2307.10934" },
-        { key: "Project", value: "/OCTraN/" }
+        { key: "Project", value: "/OCTraN" }
       ],
-      project_page: "/OCTraN/",
+      project_page: "/OCTraN",
       tldr: "3D Occupancy Prediction from Monocular Video",
     },
   ];

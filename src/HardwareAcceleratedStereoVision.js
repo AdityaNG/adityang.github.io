@@ -58,9 +58,9 @@ function HardwareAcceleratedStereoVision() {
   }',
         links: [
           { key: "Paper", value: "https://link.springer.com/epdf/10.1007/978-981-19-7867-8_22?sharing_token=tGt_1kJ1-X4X_SJ7asFIhPe4RwlQNchNByi7wbcMAY7dVU38RCYC635tD8Mv0pHKLGrLXtqJR415-cGO0rTpc-m7_S8tonEWu9j7gV822VqazEY_wDsgtBGj7oTIDJbEpDvS34K3Uc75Lm_PGnmytAIfS3kvjD_LIosG273wL8E%3D" },
-          { key: "Project", value: "/HardwareAcceleratedStereoVision/" }
+          { key: "Project", value: "/#/HardwareAcceleratedStereoVision" }
         ],
-        project_page: "/HardwareAcceleratedStereoVision/",
+        project_page: "/HardwareAcceleratedStereoVision",
         tldr: "Stereo Block Matching with CUDA and OpenMP at 30 FPS",
       },
   ];

@@ -48,7 +48,7 @@ function TrajNet() {
       title: "TrajNet",
       image: require("./media/paper_TrajNet.png"),
       conference: "ICRA 2024",
-      bibtext_plain: "Aditya N Ganesh, Dhruval Pobbathi Badrinath, Harshith Mohan Kumar, Priya S, and Surabhi Narayan. Octran: 3d occupancy convolutional transformer network in unstructured traffic scenarios. Spotlight Presentation at the Transformers for Vision Workshop, CVPR, 2023. Transformers for Vision Workshop, CVPR 2023",
+      bibtext_plain: "Aditya N G, Dhruval P B, Jehan Shalabi, Shubhankar Jape, Xueji Wang, and Zubin Jacob. Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation, ICRA 2024",
       bibtext: "@inproceedings{ganesh2024thermal,\
   title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
   author={Ganesh, Aditya Nalgunda and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
@@ -58,9 +58,9 @@ function TrajNet() {
     tldr: "Thermal Perception for End-to-End Autonomous Navigation",
     links: [
       { key: "Paper", value: require("./media/ICRA_Thermal_Voyager.pdf") },
-      { key: "Project", value: "/TrajNet/" }
+      { key: "Project", value: "/TrajNet" }
     ],
-    project_page: "/TrajNet/",
+    project_page: "/TrajNet",
     }
   ];
 
@@ -88,9 +88,9 @@ function TrajNet() {
             <Button href="https://www.youtube.com/watch?v=A329OZmrf8Y&ab_channel=AdityaNG" target="_blank" rel="noopener noreferrer">
             Video
             </Button>
-            {/* <Button href="https://github.com/AdityaNG/TrajNet" target="_blank" rel="noopener noreferrer">
+            <Button href="https://github.com/AdityaNG/TrajNet" target="_blank" rel="noopener noreferrer">
             Code
-            </Button> */}
+            </Button>
         </div>
 
         <div style={{display: 'flex', justifyContent: 'center'}}>

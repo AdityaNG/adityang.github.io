@@ -55,9 +55,9 @@ function BengaluruDrivingDataset() {
 }",
       links: [
         { key: "Paper", value: "https://arxiv.org/abs/2307.10934" },
-        { key: "Project", value: "/BengaluruDrivingDataset/" }
+        { key: "Project", value: "/#/BengaluruDrivingDataset" }
       ],
-      project_page: "/BengaluruDrivingDataset/",
+      project_page: "/BengaluruDrivingDataset",
       tldr: "3D Occupancy Prediction from Monocular Video",
     },
   ];
