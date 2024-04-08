@@ -29,6 +29,23 @@ function Landing() {
     project_page: "/TrajNet",
     },
     {
+      title: "DriveLLaVA",
+      image: require("./media/paper_DriveLLaVA.gif"),
+      // conference: "CVPR 2023",
+      bibtext_plain: "Aditya N Ganesh. DriveLLaVA: Using Large Vision Models as Driving Agents for AVs. 2024",
+      bibtext: "@misc{analgund2024DriveLLaVA,\
+  title={DriveLLaVA: Using Large Vision Models as Driving Agents for AVs},\
+  author={Ganesh, Aditya N},\
+  year={2024},\
+}",
+      links: [
+        { key: "Paper", value: "https://adityang.github.io/DriveLLaVA" },
+        { key: "Project", value: "/DriveLLaVA" }
+      ],
+      project_page: "/DriveLLaVA",
+      tldr: "Using Large Vision Models as Driving Agents for AVs",
+    },
+    {
       title: "SOccDPT",
       image: require("./media/demo.gif"),
       conference: "Arxiv 2023",
