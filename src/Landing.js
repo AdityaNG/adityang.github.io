@@ -128,14 +128,27 @@ function Landing() {
   return (
     <div className="container">
       <header>
-        <h1>Hi, I'm Aditya NG</h1>
         <Button href="https://github.com/AdityaNG/" target="_blank" rel="noopener noreferrer" style={{marginRight: '10px'}}>
           Github
         </Button>
         <Button href="https://www.linkedin.com/in/adityang/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </Button>
+
+        <h1>Hi, I'm Aditya NG</h1>
+        <br/>
+        <div style={{display: "flex", justifyContent: "center"}}>
+          <img style={{
+            borderRadius: "50%",
+            width: 250,
+            height: 250,
+            background: "red",
+            display: "block",
+          }}
+          src={require("./media/AdityaNG.png")} alt="<NAME>" />
+        </div>
       </header>
+      <hr/>
       <main>
         <div className="paper-grid">
           {papers.map((paper) => (
