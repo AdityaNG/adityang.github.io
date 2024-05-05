@@ -4,7 +4,11 @@ function Footer() {
   return (
     <footer>
       <p>Say Hi!</p>
-      <p>Contact me at <a href='mailto:adityang5@gmail.com'>adityang5@gmail.com</a></p>
+      <p>Reach out to me on LinkedIn at <a href='https://www.linkedin.com/in/adityang/'>linkedin.com/in/adityang</a></p>
+      <br></br>
+      <iframe src="https://github.com/sponsors/AdityaNG/card" title="Sponsor AdityaNG" width="600" style={{border: 0}}></iframe>
+      <br></br>
+      <hr/>
     </footer>
   );
 }
