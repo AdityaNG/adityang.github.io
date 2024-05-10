@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import Button from '@mui/material/Button';
 import Footer from './components/Footer';
 import AuthorsList from './components/AuthorsList';
@@ -8,6 +9,9 @@ import './styles.css';
 
 
 function BengaluruDrivingDataset() {
+  useEffect(() => {
+    document.title = 'BDD';
+  }, []);
   const title = "BengaluruDrivingDataset: 3D Occupancy Convolutional Transformer Network in Unstructured Traffic Scenarios"
   const authors = [
     {

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import Button from '@mui/material/Button';
 import Footer from './components/Footer';
 import AuthorsList from './components/AuthorsList';
@@ -8,6 +9,10 @@ import './styles.css';
 
 
 function TrajNet() {
+  useEffect(() => {
+    document.title = 'TrajNet';
+  }, []);
+
   const title = "Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation"
   const authors = [
     {

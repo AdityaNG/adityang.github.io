@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import PaperBlock from './components/PaperBlock';
 import Footer from './components/Footer';
 import './styles.css';
@@ -141,6 +142,10 @@ function Landing() {
       tldr: "Stereo Block Matching with CUDA and OpenMP at 30 FPS",
     },
   ];
+
+  useEffect(() => {
+    document.title = 'Aditya NG';
+  }, []);
 
   return (
     <div className="container">

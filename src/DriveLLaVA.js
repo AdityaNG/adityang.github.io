@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import Button from '@mui/material/Button';
 import Footer from './components/Footer';
 import AuthorsList from './components/AuthorsList';
@@ -8,6 +9,9 @@ import './styles.css';
 
 
 function DriveLLaVA() {
+  useEffect(() => {
+    document.title = 'DriveLLaVA';
+  }, []);
   const title = "DriveLLaVA: Using Large Vision Models as Driving Agents for AVs"
   const authors = [
     {

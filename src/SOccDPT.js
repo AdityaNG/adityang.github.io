@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import Button from '@mui/material/Button';
 import Footer from './components/Footer';
 import AuthorsList from './components/AuthorsList';
@@ -8,6 +9,9 @@ import './styles.css';
 
 
 function SOccDPT() {
+  useEffect(() => {
+    document.title = 'SOccDPT';
+  }, []);
   const title = "SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints"
   const authors = [
     {

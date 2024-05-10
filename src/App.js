@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import './styles.css';
 import TrajNet from './TrajNet';
 import OCTraN from './OCTraN';
