@@ -50,7 +50,7 @@ function Landing() {
       title: "SOccDPT",
       image: require("./media/demo.gif"),
       conference: "AAIML 2024",
-      bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. Arxiv, 2023.",
+      bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. AAIML, 2024.",
       bibtext: "@article{NG2024SOccDPT,\
   title={SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints},\
   author={NG, Aditya},\
@@ -61,7 +61,7 @@ function Landing() {
 }",
     tldr: "Real time 3D Semantic Occupancy from Dense Prediction Transformers",
     links: [
-      { key: "Paper", value: "https://arxiv.org/abs/2311.11371"},
+      { key: "Paper", value: "https://www.oajaiml.com/archive/soccdpt-3d-semantic-occupancy-from-dense-prediction-transformers-trained-under-memory-constraints"},
       { key: "Project", value: "/SOccDPT" }
     ],
     project_page: "/SOccDPT",

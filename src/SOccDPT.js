@@ -26,7 +26,7 @@ function SOccDPT() {
         title: "SOccDPT",
         image: require("./media/demo.gif"),
         conference: "AAIML 2024",
-        bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. Arxiv, 2023.",
+        bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. AAIML, 2024.",
         bibtext: "@article{NG2024SOccDPT,\
   title={SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints},\
   author={NG, Aditya},\
@@ -37,7 +37,7 @@ function SOccDPT() {
 }",
       tldr: "Real time 3D Semantic Occupancy from Dense Prediction Transformers",
       links: [
-        { key: "Paper", value: "https://arxiv.org/abs/2311.11371"},
+        { key: "Paper", value: "https://www.oajaiml.com/archive/soccdpt-3d-semantic-occupancy-from-dense-prediction-transformers-trained-under-memory-constraints"},
         { key: "Project", value: "/SOccDPT" }
       ],
       project_page: "/SOccDPT",
@@ -55,14 +55,14 @@ function SOccDPT() {
                 </div>
             ))}
         </div>
-        {/* <h3>Published at <a href="https://2024.ieee-icra.org/">ICRA 2024</a></h3> */}
+        <h3>Published at <a href="https://www.oajaiml.com/archive/soccdpt-3d-semantic-occupancy-from-dense-prediction-transformers-trained-under-memory-constraints">AAIML 2024</a></h3>
       </header>
       <main>
       
         <hr />
 
         <div style={{display: 'flex', justifyContent: 'center'}}>
-            <Button href="https://arxiv.org/abs/2311.11371" target="_blank" rel="noopener noreferrer" style={{marginRight: '10px'}}>
+            <Button href="https://www.oajaiml.com/archive/soccdpt-3d-semantic-occupancy-from-dense-prediction-transformers-trained-under-memory-constraints" target="_blank" rel="noopener noreferrer" style={{marginRight: '10px'}}>
             Paper
             </Button>
             <Button href="https://www.youtube.com/watch?v=XNREAdmF34I&ab_channel=AdityaNG" target="_blank" rel="noopener noreferrer">

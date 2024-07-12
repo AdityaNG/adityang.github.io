@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import './styles.css';
 import TrajNet from './TrajNet';
@@ -9,6 +9,8 @@ import HardwareAcceleratedStereoVision from './HardwareAcceleratedStereoVision';
 import SOccDPT from './SOccDPT';
 import DriveLLaVA from './DriveLLaVA';
 import Landing from './Landing';
+import D3Nav from './D3Nav';
+import D3NavRandom from './D3NavRandom';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/HardwareAcceleratedStereoVision" element={<HardwareAcceleratedStereoVision />} />
         <Route path="/SOccDPT" element={<SOccDPT />} />
         <Route path="/DriveLLaVA" element={<DriveLLaVA />} />
+        <Route path="/D3Nav" element={<D3Nav />} />
+        <Route path="/D3NavRandom" element={<D3NavRandom />} />
       </Routes>
     </Router>
   );

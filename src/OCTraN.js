@@ -67,8 +67,6 @@ function OCTraN() {
   ];
 
 
-  const image = require("./media/paper_OCTraN.png")
-
   return (
     <div className="container">
       <header>
