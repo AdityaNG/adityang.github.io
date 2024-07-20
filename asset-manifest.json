@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d613fbe1.css",
-    "main.js": "/static/js/main.fee46d75.js",
+    "main.js": "/static/js/main.e7aad852.js",
     "static/js/592.4e40c585.chunk.js": "/static/js/592.4e40c585.chunk.js",
     "static/media/d3nav_demo_1_video_generation.gif": "/static/media/d3nav_demo_1_video_generation.fd894413d7a330d6d51d.gif",
     "static/media/demo.gif": "/static/media/demo.8579a57cb085efd64a5d.gif",
@@ -11,6 +11,7 @@
     "static/media/d3nav_demo_0_future_video_prediction.gif": "/static/media/d3nav_demo_0_future_video_prediction.808514ca5ed9642bdf93.gif",
     "static/media/DriveGPT_HD_Demo.gif": "/static/media/DriveGPT_HD_Demo.f929707c2135f6d772bc.gif",
     "static/media/DriveGPT_SOccDPT_Demo.gif": "/static/media/DriveGPT_SOccDPT_Demo.e741817b5448a14672e8.gif",
+    "static/media/D3NavZero_title.gif": "/static/media/D3NavZero_title.3b4cfa78e1b01cc7c12b.gif",
     "static/media/socc_arch.png": "/static/media/socc_arch.cfb4780d157f55113485.png",
     "static/media/ICRA_Thermal_Voyager.pdf": "/static/media/ICRA_Thermal_Voyager.913c785f5af5d8d22631.pdf",
     "static/media/paper_DriveLLaVA.gif": "/static/media/paper_DriveLLaVA.15aa4e23e7e7b4809711.gif",
@@ -990,11 +991,11 @@
     "static/media/logo.svg": "/static/media/logo.73c6efd459d2c4a670b8.svg",
     "index.html": "/index.html",
     "main.d613fbe1.css.map": "/static/css/main.d613fbe1.css.map",
-    "main.fee46d75.js.map": "/static/js/main.fee46d75.js.map",
+    "main.e7aad852.js.map": "/static/js/main.e7aad852.js.map",
     "592.4e40c585.chunk.js.map": "/static/js/592.4e40c585.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d613fbe1.css",
-    "static/js/main.fee46d75.js"
+    "static/js/main.e7aad852.js"
   ]
 }
