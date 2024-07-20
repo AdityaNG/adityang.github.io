@@ -20,7 +20,7 @@ function PaperBlock({ title, image, conference, bibtext_plain, bibtext, tldr, li
         </a>
           <div className="links">
             {links.map(link => (
-              <Button key={link.key} href={link.value}>{link.key}</Button>
+              <Button key={link.key} href={link.value} disabled={Boolean(link.value==='')}>{link.key}</Button>
             ))}
           </div>
         </div>

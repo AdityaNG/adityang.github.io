@@ -24,7 +24,7 @@ function Landing() {
   url={https://bmvc2024.org/} \
 }",
       links: [
-        { key: "Paper (Coming Soon)", value: "/D3Nav" },
+        { key: "Paper", value: "" },
         { key: "Code", value: "https://github.com/AdityaNG/D3Nav" },
         { key: "Project", value: "/D3Nav" }
       ],

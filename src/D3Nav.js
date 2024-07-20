@@ -43,7 +43,7 @@ function D3Nav() {
   url={https://bmvc2024.org/} \
 }",
       links: [
-        { key: "Paper (Coming Soon)", value: "/D3Nav" },
+        { key: "Paper", value: "" },
         { key: "Code", value: "https://github.com/AdityaNG/D3Nav" },
         { key: "Project", value: "/D3Nav" }
       ],
@@ -69,7 +69,8 @@ function D3Nav() {
                 </div>
             ))}
         </div>
-        <h4>Department of Computer Science, PES University, Bengaluru</h4>
+        <h4>PES University, Bengaluru</h4>
+        <h4>Center for Pattern Recognition, Department of Computer Science</h4>
         <h4>Published at <a href="https://bmvc2024.org/">BMVC 2024</a></h4>
 
       </header>
@@ -136,6 +137,8 @@ function D3Nav() {
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <h2>Control Signal</h2>
         </div>
+
+        <br />
 
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <img src={require("./media/d3nav_demo_2_control_signal_trajectory.gif")}></img>
