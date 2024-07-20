@@ -11,7 +11,7 @@ import { CircularProgress, Grid } from '@mui/material';
 import './styles.css';
 
 
-function DriveLLaVA() {
+function D3Nav() {
   useEffect(() => {
     document.title = 'D³Nav';
   }, []);
@@ -31,10 +31,10 @@ function DriveLLaVA() {
 
   const papers = [
     {
-      title: "D3Nav",
+      title: "D³Nav",
       image: require("./media/d3nav_demo_0_future_video_prediction.gif"),
       conference: "BMVC 2024",
-      bibtext_plain: "Aditya N Ganesh, Gowri Srinivasa. D3Nav: Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic",
+      bibtext_plain: 'N. Aditya, S. Gowri. "D³Nav: Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic," in The 35th British Machine Vision Conference (BMVC), 2024.',
       bibtext: "@article{NG2024D3Nav, \
   title={D³Nav: Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic}, \
   author={Aditya NG and Gowri Srinivas}, \
@@ -43,11 +43,12 @@ function DriveLLaVA() {
   url={https://bmvc2024.org/} \
 }",
       links: [
-        { key: "Paper", value: "https://github.com/AdityaNG/D3Nav" },
+        { key: "Paper (Coming Soon)", value: "/D3Nav" },
+        { key: "Code", value: "https://github.com/AdityaNG/D3Nav" },
         { key: "Project", value: "/D3Nav" }
       ],
       project_page: "/D3Nav",
-      tldr: "Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic",
+      tldr: "Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic. A video generation model as a world simulator for AVs",
     },
   ];
 
@@ -69,7 +70,7 @@ function DriveLLaVA() {
             ))}
         </div>
         <h4>Department of Computer Science, PES University, Bengaluru</h4>
-        {/* <h4>Published at <a href="https://bmvc2024.org/">BMVC 2024</a></h4> */}
+        <h4>Published at <a href="https://bmvc2024.org/">BMVC 2024</a></h4>
 
       </header>
       <main>
@@ -95,17 +96,14 @@ function DriveLLaVA() {
       <hr />
 
       <div style={{display: 'flex', justifyContent: 'center'}}>
-        {/* <Button href="https://arxiv.org/abs/2307.10934" target="_blank" rel="noopener noreferrer" style={{marginRight: '10px'}}>
-          Paper
-        </Button> */}
-        <Button href="https://adityang5.medium.com/using-large-vision-models-as-driving-agents-for-avs-f5ada6807a6c" target="_blank" rel="noopener noreferrer">
-          Article
+        <Button href="https://github.com/AdityaNG/D3Nav" target="_blank" rel="noopener noreferrer" disabled>
+          Paper (Coming Soon)
         </Button>
-        <Button href="https://github.com/AdityaNG/DriveLLaVA" target="_blank" rel="noopener noreferrer">
+        <Button href="https://github.com/AdityaNG/D3Nav" target="_blank" rel="noopener noreferrer">
           Code
         </Button>
         <Button href="/D3NavRandom">
-          More Random Driving Videos
+          More Videos
         </Button>
       </div>
 
@@ -168,4 +166,4 @@ function DriveLLaVA() {
   );
 }
 
-export default DriveLLaVA;
+export default D3Nav;

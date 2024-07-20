@@ -12,6 +12,26 @@ function Landing() {
   // you'll need to replace this with actual data
   const papers = [
     {
+      title: "D³Nav",
+      image: require("./media/d3nav_demo_0_future_video_prediction.gif"),
+      conference: "BMVC 2024",
+      bibtext_plain: 'N. Aditya, S. Gowri. "D³Nav: Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic," in The 35th British Machine Vision Conference (BMVC), 2024.',
+      bibtext: "@article{NG2024D3Nav, \
+  title={D³Nav: Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic}, \
+  author={Aditya NG and Gowri Srinivas}, \
+  journal={The 35th British Machine Vision Conference (BMVC)}, \
+  year={2024}, \
+  url={https://bmvc2024.org/} \
+}",
+      links: [
+        { key: "Paper (Coming Soon)", value: "/D3Nav" },
+        { key: "Code", value: "https://github.com/AdityaNG/D3Nav" },
+        { key: "Project", value: "/D3Nav" }
+      ],
+      project_page: "/D3Nav",
+      tldr: "Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic. A video generation model as a world simulator for AVs",
+    },
+    {
       title: "TrajNet",
       image: require("./media/paper_TrajNet.png"),
       conference: "ICRA 2024",

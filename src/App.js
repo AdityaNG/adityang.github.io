@@ -11,6 +11,7 @@ import DriveLLaVA from './DriveLLaVA';
 import Landing from './Landing';
 import D3Nav from './D3Nav';
 import D3NavRandom from './D3NavRandom';
+import D3NavZero from './D3NavZero';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/DriveLLaVA" element={<DriveLLaVA />} />
         <Route path="/D3Nav" element={<D3Nav />} />
         <Route path="/D3NavRandom" element={<D3NavRandom />} />
+        <Route path="/D3NavZero" element={<D3NavZero />} />
       </Routes>
     </Router>
   );

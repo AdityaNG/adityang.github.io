@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import GridGifs from './GridGifs';
-import { CircularProgress, Grid, IconButton } from '@mui/material';
+import { CircularProgress, Grid, IconButton, Fab } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles.css';
 
-function DriveLLaVA() {
+function D3NavRandom() {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function DriveLLaVA() {
 
   useEffect(() => {
     // Display the toast message when the component mounts
-    toast.info("Refresh to show more random videos");
+    toast.info("Refresh to show more pre-generated random videos");
   }, []);
 
   return (
@@ -28,16 +28,20 @@ function DriveLLaVA() {
       <ToastContainer></ToastContainer>
       <IconButton
         onClick={() => navigate('/D3Nav')}
-        style={{ position: 'absolute', top: '10px', left: '10px', color: 'white' }}
+        style={{ 
+          position: 'absolute', 
+          top: '10px', 
+          left: '10px', 
+          color: 'white', 
+          backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent black background
+          border: '1px solid white', // White border around the button
+          padding: '10px',
+          fontSize: '1.5rem' // Increased icon size
+        }}
       >
         <ArrowBackIcon />
       </IconButton>
-      <IconButton
-        onClick={() => window.location.reload()}
-        style={{ position: 'absolute', top: '10px', left: '50px', color: 'white' }}
-      >
-        <RefreshIcon />
-      </IconButton>
+
       <Grid container spacing={0} style={{ overflow: 'hidden', maxHeight: '100vh', background: '#000000' }}>
         {GridGifs.map((gif, index) => {
           return (
@@ -54,8 +58,15 @@ function DriveLLaVA() {
           );
         })}
       </Grid>
+      <Fab 
+        color="primary" 
+        onClick={() => window.location.reload()} 
+        style={{ position: 'fixed', bottom: '20px', right: '20px'}}
+      >
+        <RefreshIcon />
+      </Fab>
     </div>
   );
 }
 
-export default DriveLLaVA;
+export default D3NavRandom;
