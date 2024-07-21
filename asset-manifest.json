@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d613fbe1.css",
-    "main.js": "/static/js/main.61c708ea.js",
+    "main.js": "/static/js/main.ef8bd4de.js",
     "static/js/592.4e40c585.chunk.js": "/static/js/592.4e40c585.chunk.js",
     "static/media/d3nav_demo_1_video_generation.gif": "/static/media/d3nav_demo_1_video_generation.fd894413d7a330d6d51d.gif",
+    "static/media/TrajNet_traj_demo.gif": "/static/media/TrajNet_traj_demo.3f37df3e367e7ba01128.gif",
     "static/media/demo.gif": "/static/media/demo.8579a57cb085efd64a5d.gif",
     "static/media/d3nav_demo_2_control_signal_trajectory.gif": "/static/media/d3nav_demo_2_control_signal_trajectory.74d0c46b04da07df3de0.gif",
     "static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.gif": "/static/media/BDD_Iterator_Demo-2023-08-30_08.25.17.99deab50d03dfb3561d2.gif",
@@ -975,6 +976,7 @@
     "static/media/plot_dataset_3D.png": "/static/media/plot_dataset_3D.4366165a02d156f128e9.png",
     "static/media/4_267.gif": "/static/media/4_267.18b28d5963e53f5585d2.gif",
     "static/media/paper_TrajNet.png": "/static/media/paper_TrajNet.00f1e83cc1b0fb936d8c.png",
+    "static/media/bdd_map.png": "/static/media/bdd_map.af511a876c84b8fe6312.png",
     "static/media/paper_SOccDPT.png": "/static/media/paper_SOccDPT.9f0c4a823d4afd763818.png",
     "static/media/paper_OCTraN.png": "/static/media/paper_OCTraN.c10316ece821d0c051ad.png",
     "static/media/OCTraN_merged_grid_2_rev.png": "/static/media/OCTraN_merged_grid_2_rev.4d7fb9b00a6a83c93e77.png",
@@ -991,11 +993,11 @@
     "static/media/logo.svg": "/static/media/logo.73c6efd459d2c4a670b8.svg",
     "index.html": "/index.html",
     "main.d613fbe1.css.map": "/static/css/main.d613fbe1.css.map",
-    "main.61c708ea.js.map": "/static/js/main.61c708ea.js.map",
+    "main.ef8bd4de.js.map": "/static/js/main.ef8bd4de.js.map",
     "592.4e40c585.chunk.js.map": "/static/js/592.4e40c585.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d613fbe1.css",
-    "static/js/main.61c708ea.js"
+    "static/js/main.ef8bd4de.js"
   ]
 }
