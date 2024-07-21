@@ -111,6 +111,20 @@ function BengaluruDrivingDataset() {
         <hr />
 
         <div style={{display: 'flex', justifyContent: 'center'}}>
+            <div style={{maxWidth: '60vw', margin: '20px', textAlign: 'justify'}}>
+                <img src={require("./media/bdd_map.png")} />
+            </div>
+        </div>
+
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+            <p style={{maxWidth: '80vw', margin: '20px', textAlign: 'justify'}}>
+            Above is the map of where the dataset was gathered
+            </p>
+        </div>
+
+        <hr />
+
+        <div style={{display: 'flex', justifyContent: 'center'}}>
             <div className="paper-grid">
             {papers.map((paper) => (
                 <div>

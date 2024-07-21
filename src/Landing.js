@@ -33,7 +33,7 @@ function Landing() {
     },
     {
       title: "TrajNet",
-      image: require("./media/paper_TrajNet.png"),
+      image: require("./media/TrajNet_traj_demo.gif"),
       conference: "ICRA 2024",
       bibtext_plain: "Aditya N G, Dhruval P B, Jehan Shalabi, Shubhankar Jape, Xueji Wang, and Zubin Jacob. Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation, ICRA 2024",
       bibtext: "@inproceedings{ganesh2024thermal,\
