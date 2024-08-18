@@ -54,12 +54,17 @@ function TrajNet() {
       image: require("./media/paper_TrajNet.png"),
       conference: "ICRA 2024",
       bibtext_plain: "Aditya N G, Dhruval P B, Jehan Shalabi, Shubhankar Jape, Xueji Wang, and Zubin Jacob. Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation, ICRA 2024",
-      bibtext: "@inproceedings{ganesh2024thermal,\
-  title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
-  author={Ganesh, Aditya Nalgunda and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
+      bibtext: "@INPROCEEDINGS{10611311,\
+  author={NG, Aditya and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
   booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},\
-  year={2024}\
-}",
+  title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
+  year={2024},\
+  volume={},\
+  number={},\
+  pages={14116-14122},\
+  keywords={Navigation;Lighting;Thermal sensors;Cameras;Distance measurement;Trajectory;Reliability},\
+  doi={10.1109/ICRA57147.2024.10611311}\
+}",    
     tldr: "Thermal Perception for End-to-End Autonomous Navigation",
     links: [
       { key: "Paper", value: require("./media/ICRA_Thermal_Voyager.pdf") },

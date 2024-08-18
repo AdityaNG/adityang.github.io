@@ -32,15 +32,36 @@ function Landing() {
       tldr: "Data-Driven Driving Agents for Autonomous Vehicles in Unstructured Traffic. A video generation model as a world simulator for AVs",
     },
     {
+      title: "D³NavZero: AV Navigation with AI-Guided Graph Search",
+      image: require("./media/D3NavZero_title.gif"),
+      bibtext_plain: 'N. Aditya "D³NavZero: AV Navigation with AI-Guided Graph Search", 2024.',
+      bibtext: "@misc{NG2024D3NavZero, \
+  title={D³NavZero: AV Navigation with AI-Guided Graph Search}, \
+  author={Aditya, NG}, \
+  year={2024}, \
+}",
+      links: [
+        { key: "Article", value: "https://adityang5.medium.com/d%C2%B3navzero-av-navigation-with-ai-guided-graph-search-a55e2bb3addc" },
+        { key: "Project", value: "/D3NavZero" }
+      ],
+      project_page: "/D3NavZero",
+      tldr: "MyuZero for autonomous vehicles",
+    },
+    {
       title: "TrajNet",
       image: require("./media/TrajNet_traj_demo.gif"),
       conference: "ICRA 2024",
       bibtext_plain: "Aditya N G, Dhruval P B, Jehan Shalabi, Shubhankar Jape, Xueji Wang, and Zubin Jacob. Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation, ICRA 2024",
-      bibtext: "@inproceedings{ganesh2024thermal,\
-  title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
-  author={Ganesh, Aditya Nalgunda and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
+      bibtext: "@INPROCEEDINGS{10611311,\
+  author={NG, Aditya and PB, Dhruval and Shalabi, Jehan and Jape, Shubhankar and Wang, Xueji and Jacob, Zubin},\
   booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},\
-  year={2024}\
+  title={Thermal Voyager: A Comparative Study of RGB and Thermal Cameras for Night-Time Autonomous Navigation},\
+  year={2024},\
+  volume={},\
+  number={},\
+  pages={14116-14122},\
+  keywords={Navigation;Lighting;Thermal sensors;Cameras;Distance measurement;Trajectory;Reliability},\
+  doi={10.1109/ICRA57147.2024.10611311}\
 }",
     tldr: "Thermal Perception for End-to-End Autonomous Navigation",
     links: [

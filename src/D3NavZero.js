@@ -5,9 +5,6 @@ import Footer from './components/Footer';
 import AuthorsList from './components/AuthorsList';
 import PaperBlock from './components/PaperBlock';
 
-import GridGifs from './GridGifs';
-import { CircularProgress, Grid } from '@mui/material';
-
 import './styles.css';
 
 
@@ -21,12 +18,7 @@ function D3NavZero() {
       author_name: "Aditya N G",
       author_email: "adityang5@gmail.com",
       author_url: "https://adityang.github.io/"
-    },
-    {
-      author_name: "Gowri Srinivasa",
-      author_email: "gsrinivasa@pes.edu",
-      author_url: "https://staff.pes.edu/nm1084/"
-    },
+    }
   ]
 
   const papers = [
@@ -40,7 +32,7 @@ function D3NavZero() {
   year={2024}, \
 }",
       links: [
-        { key: "Article", value: "" },
+        { key: "Article", value: "https://adityang5.medium.com/d%C2%B3navzero-av-navigation-with-ai-guided-graph-search-a55e2bb3addc" },
         { key: "Project", value: "/D3NavZero" }
       ],
       project_page: "/D3NavZero",
@@ -78,14 +70,8 @@ function D3NavZero() {
       <hr />
 
       <div style={{display: 'flex', justifyContent: 'center'}}>
-        <Button href="https://github.com/AdityaNG/D3Nav" target="_blank" rel="noopener noreferrer" disabled>
-          Paper (Coming Soon)
-        </Button>
-        <Button href="https://github.com/AdityaNG/D3Nav" target="_blank" rel="noopener noreferrer">
-          Code
-        </Button>
-        <Button href="/D3NavRandom">
-          More Videos
+        <Button href="https://adityang5.medium.com/d%C2%B3navzero-av-navigation-with-ai-guided-graph-search-a55e2bb3addc" target="_blank" rel="noopener noreferrer">
+          Medium Article
         </Button>
       </div>
 
