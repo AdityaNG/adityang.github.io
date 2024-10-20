@@ -26,14 +26,15 @@ function SOccDPT() {
         title: "SOccDPT",
         image: require("./media/demo.gif"),
         conference: "AAIML 2024",
-        bibtext_plain: "Aditya Nalgunda Ganesh. Soccdpt: Semi-supervised 3d semantic occupancy from dense prediction transformers trained under memory constraints. AAIML, 2024.",
-        bibtext: "@article{NG2024SOccDPT,\
-  title={SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints},\
-  author={NG, Aditya},\
-  journal={Advances in Artificial Intelligence and Machine Learning},\
-  volume={ISSN: 2582-9793, Source Id: 21101164612},\
-  year={2024},\
-  url={https://www.oajaiml.com/}\
+        bibtext_plain: "ADITYA NALGUNDA GANESH (2024). SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints.. Adv. Artif. Intell. Mach. Learn., 4 (2 ):2201-2212",
+        bibtext: "@article{nalgunda2024soccdpt,\
+  author = {Aditya Nalgunda Ganesh},\
+  title = {SOccDPT: 3D Semantic Occupancy from Dense Prediction Transformers trained under memory constraints},\
+  journal = {Advances in Artificial Intelligence and Machine Learning},\
+  volume = {4},\
+  number = {2},\
+  pages = {2201--2212},\
+  year = {2024}\
 }",
       tldr: "Real time 3D Semantic Occupancy from Dense Prediction Transformers",
       links: [
